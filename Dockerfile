@@ -4,4 +4,4 @@ RUN apk add git && \
     mkdir -p /go/src/golang.org/x/time && \
     git clone  https://github.com/golang/time.git /go/src/golang.org/x/time && \
     go get github.com/astaxie/beego/config/yaml && \
-    go get github.com/aliyun/aliyun-oss-go-sdk/oss;exit 0
+    go get github.com/aliyun/aliyun-oss-go-sdk/oss
